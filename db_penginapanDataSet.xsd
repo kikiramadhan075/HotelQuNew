@@ -1,0 +1,165 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="db_penginapanDataSet" targetNamespace="http://tempuri.org/db_penginapanDataSet.xsd" xmlns:mstns="http://tempuri.org/db_penginapanDataSet.xsd" xmlns="http://tempuri.org/db_penginapanDataSet.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="db_penginapanConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="db_penginapanConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.penginapan.Properties.Settings.GlobalReference.Default.db_penginapanConnectionString" Provider="MySql.Data.MySqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="tbl_kamarTableAdapter" GeneratorDataComponentClassName="tbl_kamarTableAdapter" Name="tbl_kamar" UserDataComponentName="tbl_kamarTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="db_penginapanConnectionString (Settings)" DbObjectName="db_penginapan.tbl_kamar" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT `id_kamar`, `id_tipe_kamar`, `deskripsi`, `status` FROM `tbl_kamar`</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings />
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="tbl_menuTableAdapter" GeneratorDataComponentClassName="tbl_menuTableAdapter" Name="tbl_menu" UserDataComponentName="tbl_menuTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="db_penginapanConnectionString (Settings)" DbObjectName="db_penginapan.tbl_menu" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT `id_menu`, `nama`, `harga` FROM `tbl_menu`</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings />
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="tbl_pembayaranTableAdapter" GeneratorDataComponentClassName="tbl_pembayaranTableAdapter" Name="tbl_pembayaran" UserDataComponentName="tbl_pembayaranTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="db_penginapanConnectionString (Settings)" DbObjectName="db_penginapan.tbl_pembayaran" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT `id_pembayaran`, `id_reservasi`, `id_tamu`, `id_kamar`, `id_tipe_kamar`, `id_user`, `total_bayar`, `bulan`, `tahun` FROM `tbl_pembayaran`</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings />
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="tbl_pesananTableAdapter" GeneratorDataComponentClassName="tbl_pesananTableAdapter" Name="tbl_pesanan" UserDataComponentName="tbl_pesananTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="db_penginapanConnectionString (Settings)" DbObjectName="db_penginapan.tbl_pesanan" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT `id_pesanan`, `id_reservasi`, `id_menu`, `jumlah_pesanan`, `tgl` FROM `tbl_pesanan`</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings />
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="tbl_reservasiTableAdapter" GeneratorDataComponentClassName="tbl_reservasiTableAdapter" Name="tbl_reservasi" UserDataComponentName="tbl_reservasiTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="db_penginapanConnectionString (Settings)" DbObjectName="db_penginapan.tbl_reservasi" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT `id_reservasi`, `id_tamu`, `id_user`, `id_tipe_kamar`, `id_kamar`, `tgl_cek_in`, `tgl_cek_out`, `lama_menginap`, `status` FROM `tbl_reservasi`</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings />
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="tbl_tamuTableAdapter" GeneratorDataComponentClassName="tbl_tamuTableAdapter" Name="tbl_tamu" UserDataComponentName="tbl_tamuTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="db_penginapanConnectionString (Settings)" DbObjectName="db_penginapan.tbl_tamu" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT `id_tamu`, `nama_tamu`, `alamat`, `no_telpon`, `jk`, `pekerjaan` FROM `tbl_tamu`</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings />
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="tbl_tipe_kamarTableAdapter" GeneratorDataComponentClassName="tbl_tipe_kamarTableAdapter" Name="tbl_tipe_kamar" UserDataComponentName="tbl_tipe_kamarTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="db_penginapanConnectionString (Settings)" DbObjectName="db_penginapan.tbl_tipe_kamar" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT `id_tipe_kamar`, `nama`, `harga` FROM `tbl_tipe_kamar`</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings />
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="tbl_userTableAdapter" GeneratorDataComponentClassName="tbl_userTableAdapter" Name="tbl_user" UserDataComponentName="tbl_userTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="db_penginapanConnectionString (Settings)" DbObjectName="db_penginapan.tbl_user" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT `id_user`, `username`, `password`, `nama_lengkap`, `kelahiran` FROM `tbl_user`</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings />
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="db_penginapanDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="db_penginapanDataSet" msprop:Generator_UserDSName="db_penginapanDataSet">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="tbl_kamar" msprop:Generator_TableClassName="tbl_kamarDataTable" msprop:Generator_TableVarName="tabletbl_kamar" msprop:Generator_TablePropName="tbl_kamar" msprop:Generator_RowDeletingName="tbl_kamarRowDeleting" msprop:Generator_RowChangingName="tbl_kamarRowChanging" msprop:Generator_RowEvHandlerName="tbl_kamarRowChangeEventHandler" msprop:Generator_RowDeletedName="tbl_kamarRowDeleted" msprop:Generator_UserTableName="tbl_kamar" msprop:Generator_RowChangedName="tbl_kamarRowChanged" msprop:Generator_RowEvArgName="tbl_kamarRowChangeEvent" msprop:Generator_RowClassName="tbl_kamarRow">
+          <xs:complexType>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="tbl_menu" msprop:Generator_TableClassName="tbl_menuDataTable" msprop:Generator_TableVarName="tabletbl_menu" msprop:Generator_TablePropName="tbl_menu" msprop:Generator_RowDeletingName="tbl_menuRowDeleting" msprop:Generator_RowChangingName="tbl_menuRowChanging" msprop:Generator_RowEvHandlerName="tbl_menuRowChangeEventHandler" msprop:Generator_RowDeletedName="tbl_menuRowDeleted" msprop:Generator_UserTableName="tbl_menu" msprop:Generator_RowChangedName="tbl_menuRowChanged" msprop:Generator_RowEvArgName="tbl_menuRowChangeEvent" msprop:Generator_RowClassName="tbl_menuRow">
+          <xs:complexType>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="tbl_pembayaran" msprop:Generator_TableClassName="tbl_pembayaranDataTable" msprop:Generator_TableVarName="tabletbl_pembayaran" msprop:Generator_TablePropName="tbl_pembayaran" msprop:Generator_RowDeletingName="tbl_pembayaranRowDeleting" msprop:Generator_RowChangingName="tbl_pembayaranRowChanging" msprop:Generator_RowEvHandlerName="tbl_pembayaranRowChangeEventHandler" msprop:Generator_RowDeletedName="tbl_pembayaranRowDeleted" msprop:Generator_UserTableName="tbl_pembayaran" msprop:Generator_RowChangedName="tbl_pembayaranRowChanged" msprop:Generator_RowEvArgName="tbl_pembayaranRowChangeEvent" msprop:Generator_RowClassName="tbl_pembayaranRow">
+          <xs:complexType>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="tbl_pesanan" msprop:Generator_TableClassName="tbl_pesananDataTable" msprop:Generator_TableVarName="tabletbl_pesanan" msprop:Generator_TablePropName="tbl_pesanan" msprop:Generator_RowDeletingName="tbl_pesananRowDeleting" msprop:Generator_RowChangingName="tbl_pesananRowChanging" msprop:Generator_RowEvHandlerName="tbl_pesananRowChangeEventHandler" msprop:Generator_RowDeletedName="tbl_pesananRowDeleted" msprop:Generator_UserTableName="tbl_pesanan" msprop:Generator_RowChangedName="tbl_pesananRowChanged" msprop:Generator_RowEvArgName="tbl_pesananRowChangeEvent" msprop:Generator_RowClassName="tbl_pesananRow">
+          <xs:complexType>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="tbl_reservasi" msprop:Generator_TableClassName="tbl_reservasiDataTable" msprop:Generator_TableVarName="tabletbl_reservasi" msprop:Generator_TablePropName="tbl_reservasi" msprop:Generator_RowDeletingName="tbl_reservasiRowDeleting" msprop:Generator_RowChangingName="tbl_reservasiRowChanging" msprop:Generator_RowEvHandlerName="tbl_reservasiRowChangeEventHandler" msprop:Generator_RowDeletedName="tbl_reservasiRowDeleted" msprop:Generator_UserTableName="tbl_reservasi" msprop:Generator_RowChangedName="tbl_reservasiRowChanged" msprop:Generator_RowEvArgName="tbl_reservasiRowChangeEvent" msprop:Generator_RowClassName="tbl_reservasiRow">
+          <xs:complexType>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="tbl_tamu" msprop:Generator_TableClassName="tbl_tamuDataTable" msprop:Generator_TableVarName="tabletbl_tamu" msprop:Generator_TablePropName="tbl_tamu" msprop:Generator_RowDeletingName="tbl_tamuRowDeleting" msprop:Generator_RowChangingName="tbl_tamuRowChanging" msprop:Generator_RowEvHandlerName="tbl_tamuRowChangeEventHandler" msprop:Generator_RowDeletedName="tbl_tamuRowDeleted" msprop:Generator_UserTableName="tbl_tamu" msprop:Generator_RowChangedName="tbl_tamuRowChanged" msprop:Generator_RowEvArgName="tbl_tamuRowChangeEvent" msprop:Generator_RowClassName="tbl_tamuRow">
+          <xs:complexType>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="tbl_tipe_kamar" msprop:Generator_TableClassName="tbl_tipe_kamarDataTable" msprop:Generator_TableVarName="tabletbl_tipe_kamar" msprop:Generator_TablePropName="tbl_tipe_kamar" msprop:Generator_RowDeletingName="tbl_tipe_kamarRowDeleting" msprop:Generator_RowChangingName="tbl_tipe_kamarRowChanging" msprop:Generator_RowEvHandlerName="tbl_tipe_kamarRowChangeEventHandler" msprop:Generator_RowDeletedName="tbl_tipe_kamarRowDeleted" msprop:Generator_UserTableName="tbl_tipe_kamar" msprop:Generator_RowChangedName="tbl_tipe_kamarRowChanged" msprop:Generator_RowEvArgName="tbl_tipe_kamarRowChangeEvent" msprop:Generator_RowClassName="tbl_tipe_kamarRow">
+          <xs:complexType>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="tbl_user" msprop:Generator_TableClassName="tbl_userDataTable" msprop:Generator_TableVarName="tabletbl_user" msprop:Generator_TablePropName="tbl_user" msprop:Generator_RowDeletingName="tbl_userRowDeleting" msprop:Generator_RowChangingName="tbl_userRowChanging" msprop:Generator_RowEvHandlerName="tbl_userRowChangeEventHandler" msprop:Generator_RowDeletedName="tbl_userRowDeleted" msprop:Generator_UserTableName="tbl_user" msprop:Generator_RowChangedName="tbl_userRowChanged" msprop:Generator_RowEvArgName="tbl_userRowChangeEvent" msprop:Generator_RowClassName="tbl_userRow">
+          <xs:complexType>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

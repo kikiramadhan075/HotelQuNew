@@ -163,7 +163,7 @@ namespace penginapan
 				adap.Fill(table);
 				adap2.Fill(table2);
 				adap3.Fill(table3);
-				MessageBox.Show("Data berhasil disimpan!!!\nTerima Kasih sudah menginap di Cahya Santika.");
+				MessageBox.Show("Data berhasil disimpan!!!\nTerima Kasih sudah menginap di HotelQu.");
 				this.Close();
 			} catch (Exception err) {
 				MessageBox.Show(err.ToString());

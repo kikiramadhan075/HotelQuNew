@@ -59,6 +59,8 @@ namespace penginapan
             this.label4 = new System.Windows.Forms.Label();
             this.cmbTglReservasi = new System.Windows.Forms.ComboBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.label36 = new System.Windows.Forms.Label();
+            this.label35 = new System.Windows.Forms.Label();
             this.refreshReservasi = new System.Windows.Forms.Button();
             this.cekIn = new System.Windows.Forms.Button();
             this.tabPage2 = new System.Windows.Forms.TabPage();
@@ -74,10 +76,14 @@ namespace penginapan
             this.label8 = new System.Windows.Forms.Label();
             this.button2 = new System.Windows.Forms.Button();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
+            this.label38 = new System.Windows.Forms.Label();
+            this.label37 = new System.Windows.Forms.Label();
             this.refreshKamar = new System.Windows.Forms.Button();
             this.tmbKamar = new System.Windows.Forms.Button();
             this.tabPage3 = new System.Windows.Forms.TabPage();
             this.groupBox5 = new System.Windows.Forms.GroupBox();
+            this.label41 = new System.Windows.Forms.Label();
+            this.label40 = new System.Windows.Forms.Label();
             this.hargaTipe = new System.Windows.Forms.TextBox();
             this.label10 = new System.Windows.Forms.Label();
             this.namaTipe = new System.Windows.Forms.TextBox();
@@ -96,6 +102,8 @@ namespace penginapan
             this.button15 = new System.Windows.Forms.Button();
             this.almtTamu = new System.Windows.Forms.TextBox();
             this.groupBox7 = new System.Windows.Forms.GroupBox();
+            this.label43 = new System.Windows.Forms.Label();
+            this.label42 = new System.Windows.Forms.Label();
             this.button19 = new System.Windows.Forms.Button();
             this.button20 = new System.Windows.Forms.Button();
             this.tabPage5 = new System.Windows.Forms.TabPage();
@@ -116,6 +124,7 @@ namespace penginapan
             this.button26 = new System.Windows.Forms.Button();
             this.idRsPesan = new System.Windows.Forms.TextBox();
             this.groupBox9 = new System.Windows.Forms.GroupBox();
+            this.label44 = new System.Windows.Forms.Label();
             this.button23 = new System.Windows.Forms.Button();
             this.button24 = new System.Windows.Forms.Button();
             this.groupBox8 = new System.Windows.Forms.GroupBox();
@@ -138,6 +147,7 @@ namespace penginapan
             this.button28 = new System.Windows.Forms.Button();
             this.tabPage7 = new System.Windows.Forms.TabPage();
             this.groupBox14 = new System.Windows.Forms.GroupBox();
+            this.label39 = new System.Windows.Forms.Label();
             this.button29 = new System.Windows.Forms.Button();
             this.pswBaru = new System.Windows.Forms.TextBox();
             this.pswLama = new System.Windows.Forms.TextBox();
@@ -184,16 +194,11 @@ namespace penginapan
             this.namaTerang = new System.Windows.Forms.Label();
             this.usernameTerang = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.label35 = new System.Windows.Forms.Label();
-            this.label36 = new System.Windows.Forms.Label();
-            this.label37 = new System.Windows.Forms.Label();
-            this.label38 = new System.Windows.Forms.Label();
-            this.label39 = new System.Windows.Forms.Label();
-            this.label40 = new System.Windows.Forms.Label();
-            this.label41 = new System.Windows.Forms.Label();
-            this.label42 = new System.Windows.Forms.Label();
-            this.label43 = new System.Windows.Forms.Label();
-            this.label44 = new System.Windows.Forms.Label();
+            this.label45 = new System.Windows.Forms.Label();
+            this.label46 = new System.Windows.Forms.Label();
+            this.label47 = new System.Windows.Forms.Label();
+            this.label48 = new System.Windows.Forms.Label();
+            this.label49 = new System.Windows.Forms.Label();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.groupBox2.SuspendLayout();
@@ -461,6 +466,25 @@ namespace penginapan
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Data Reservasi";
             // 
+            // label36
+            // 
+            this.label36.AutoSize = true;
+            this.label36.Location = new System.Drawing.Point(144, 55);
+            this.label36.Name = "label36";
+            this.label36.Size = new System.Drawing.Size(44, 13);
+            this.label36.TabIndex = 3;
+            this.label36.Text = "Refresh";
+            // 
+            // label35
+            // 
+            this.label35.AutoSize = true;
+            this.label35.BackColor = System.Drawing.Color.Transparent;
+            this.label35.Location = new System.Drawing.Point(38, 55);
+            this.label35.Name = "label35";
+            this.label35.Size = new System.Drawing.Size(38, 13);
+            this.label35.TabIndex = 2;
+            this.label35.Text = "Cek In";
+            // 
             // refreshReservasi
             // 
             this.refreshReservasi.BackColor = System.Drawing.Color.White;
@@ -620,6 +644,24 @@ namespace penginapan
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "Data Kamar";
             // 
+            // label38
+            // 
+            this.label38.AutoSize = true;
+            this.label38.Location = new System.Drawing.Point(143, 55);
+            this.label38.Name = "label38";
+            this.label38.Size = new System.Drawing.Size(44, 13);
+            this.label38.TabIndex = 3;
+            this.label38.Text = "Refresh";
+            // 
+            // label37
+            // 
+            this.label37.AutoSize = true;
+            this.label37.Location = new System.Drawing.Point(21, 55);
+            this.label37.Name = "label37";
+            this.label37.Size = new System.Drawing.Size(79, 13);
+            this.label37.TabIndex = 2;
+            this.label37.Text = "Tambah Kamar";
+            // 
             // refreshKamar
             // 
             this.refreshKamar.BackColor = System.Drawing.Color.White;
@@ -672,6 +714,25 @@ namespace penginapan
             this.groupBox5.TabIndex = 6;
             this.groupBox5.TabStop = false;
             this.groupBox5.Text = "Data Tipe Kamar";
+            // 
+            // label41
+            // 
+            this.label41.AutoSize = true;
+            this.label41.Location = new System.Drawing.Point(360, 56);
+            this.label41.Name = "label41";
+            this.label41.Size = new System.Drawing.Size(73, 13);
+            this.label41.TabIndex = 7;
+            this.label41.Text = "Tambah Tipe ";
+            // 
+            // label40
+            // 
+            this.label40.AutoSize = true;
+            this.label40.BackColor = System.Drawing.Color.White;
+            this.label40.Location = new System.Drawing.Point(481, 56);
+            this.label40.Name = "label40";
+            this.label40.Size = new System.Drawing.Size(44, 13);
+            this.label40.TabIndex = 6;
+            this.label40.Text = "Refresh";
             // 
             // hargaTipe
             // 
@@ -848,6 +909,24 @@ namespace penginapan
             this.groupBox7.TabIndex = 7;
             this.groupBox7.TabStop = false;
             this.groupBox7.Text = "Data Tamu ";
+            // 
+            // label43
+            // 
+            this.label43.AutoSize = true;
+            this.label43.Location = new System.Drawing.Point(22, 55);
+            this.label43.Name = "label43";
+            this.label43.Size = new System.Drawing.Size(76, 13);
+            this.label43.TabIndex = 3;
+            this.label43.Text = "Tambah Tamu";
+            // 
+            // label42
+            // 
+            this.label42.AutoSize = true;
+            this.label42.Location = new System.Drawing.Point(143, 57);
+            this.label42.Name = "label42";
+            this.label42.Size = new System.Drawing.Size(44, 13);
+            this.label42.TabIndex = 2;
+            this.label42.Text = "Refresh";
             // 
             // button19
             // 
@@ -1039,6 +1118,8 @@ namespace penginapan
             // 
             // groupBox9
             // 
+            this.groupBox9.Controls.Add(this.label49);
+            this.groupBox9.Controls.Add(this.label48);
             this.groupBox9.Controls.Add(this.label44);
             this.groupBox9.Controls.Add(this.button23);
             this.groupBox9.Controls.Add(this.button24);
@@ -1048,6 +1129,15 @@ namespace penginapan
             this.groupBox9.TabIndex = 10;
             this.groupBox9.TabStop = false;
             this.groupBox9.Text = "Data Pesanan Makanan - Minuman";
+            // 
+            // label44
+            // 
+            this.label44.AutoSize = true;
+            this.label44.Location = new System.Drawing.Point(143, 60);
+            this.label44.Name = "label44";
+            this.label44.Size = new System.Drawing.Size(44, 13);
+            this.label44.TabIndex = 2;
+            this.label44.Text = "Refresh";
             // 
             // button23
             // 
@@ -1064,16 +1154,21 @@ namespace penginapan
             // 
             // button24
             // 
+            this.button24.BackColor = System.Drawing.Color.White;
             this.button24.Image = ((System.Drawing.Image)(resources.GetObject("button24.Image")));
+            this.button24.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
             this.button24.Location = new System.Drawing.Point(9, 19);
             this.button24.Name = "button24";
             this.button24.Size = new System.Drawing.Size(100, 60);
             this.button24.TabIndex = 0;
-            this.button24.UseVisualStyleBackColor = true;
+            this.button24.UseVisualStyleBackColor = false;
             this.button24.Click += new System.EventHandler(this.Button24Click);
             // 
             // groupBox8
             // 
+            this.groupBox8.Controls.Add(this.label47);
+            this.groupBox8.Controls.Add(this.label46);
+            this.groupBox8.Controls.Add(this.label45);
             this.groupBox8.Controls.Add(this.button21);
             this.groupBox8.Controls.Add(this.button22);
             this.groupBox8.Location = new System.Drawing.Point(6, 7);
@@ -1085,23 +1180,27 @@ namespace penginapan
             // 
             // button21
             // 
+            this.button21.BackColor = System.Drawing.Color.White;
             this.button21.Image = ((System.Drawing.Image)(resources.GetObject("button21.Image")));
+            this.button21.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
             this.button21.Location = new System.Drawing.Point(115, 20);
             this.button21.Name = "button21";
             this.button21.Size = new System.Drawing.Size(100, 60);
             this.button21.TabIndex = 1;
             this.button21.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.button21.UseVisualStyleBackColor = true;
+            this.button21.UseVisualStyleBackColor = false;
             this.button21.Click += new System.EventHandler(this.Button21Click);
             // 
             // button22
             // 
+            this.button22.BackColor = System.Drawing.Color.White;
             this.button22.Image = ((System.Drawing.Image)(resources.GetObject("button22.Image")));
+            this.button22.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
             this.button22.Location = new System.Drawing.Point(9, 19);
             this.button22.Name = "button22";
             this.button22.Size = new System.Drawing.Size(100, 60);
             this.button22.TabIndex = 0;
-            this.button22.UseVisualStyleBackColor = true;
+            this.button22.UseVisualStyleBackColor = false;
             this.button22.Click += new System.EventHandler(this.Button22Click);
             // 
             // tabPage6
@@ -1276,14 +1375,23 @@ namespace penginapan
             this.groupBox14.TabStop = false;
             this.groupBox14.Text = "Data Password";
             // 
+            // label39
+            // 
+            this.label39.AutoSize = true;
+            this.label39.Location = new System.Drawing.Point(370, 58);
+            this.label39.Name = "label39";
+            this.label39.Size = new System.Drawing.Size(84, 13);
+            this.label39.TabIndex = 7;
+            this.label39.Text = "Reset Password";
+            // 
             // button29
             // 
             this.button29.BackColor = System.Drawing.Color.White;
             this.button29.Image = ((System.Drawing.Image)(resources.GetObject("button29.Image")));
             this.button29.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.button29.Location = new System.Drawing.Point(362, 22);
+            this.button29.Location = new System.Drawing.Point(362, 13);
             this.button29.Name = "button29";
-            this.button29.Size = new System.Drawing.Size(100, 60);
+            this.button29.Size = new System.Drawing.Size(100, 69);
             this.button29.TabIndex = 1;
             this.button29.UseVisualStyleBackColor = false;
             this.button29.Click += new System.EventHandler(this.Button29Click);
@@ -1570,7 +1678,7 @@ namespace penginapan
             // keluarLogOutToolStripMenuItem
             // 
             this.keluarLogOutToolStripMenuItem.Name = "keluarLogOutToolStripMenuItem";
-            this.keluarLogOutToolStripMenuItem.Size = new System.Drawing.Size(156, 22);
+            this.keluarLogOutToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.keluarLogOutToolStripMenuItem.Text = "Keluar & Log Out";
             // 
             // keteranganAplikasiToolStripMenuItem
@@ -1696,97 +1804,52 @@ namespace penginapan
             this.pictureBox1.TabIndex = 15;
             this.pictureBox1.TabStop = false;
             // 
-            // label35
+            // label45
             // 
-            this.label35.AutoSize = true;
-            this.label35.BackColor = System.Drawing.Color.Transparent;
-            this.label35.Location = new System.Drawing.Point(38, 55);
-            this.label35.Name = "label35";
-            this.label35.Size = new System.Drawing.Size(38, 13);
-            this.label35.TabIndex = 2;
-            this.label35.Text = "Cek In";
+            this.label45.AutoSize = true;
+            this.label45.Location = new System.Drawing.Point(144, 59);
+            this.label45.Name = "label45";
+            this.label45.Size = new System.Drawing.Size(44, 13);
+            this.label45.TabIndex = 2;
+            this.label45.Text = "Refresh";
             // 
-            // label36
+            // label46
             // 
-            this.label36.AutoSize = true;
-            this.label36.Location = new System.Drawing.Point(144, 55);
-            this.label36.Name = "label36";
-            this.label36.Size = new System.Drawing.Size(44, 13);
-            this.label36.TabIndex = 3;
-            this.label36.Text = "Refresh";
+            this.label46.AutoSize = true;
+            this.label46.BackColor = System.Drawing.Color.Transparent;
+            this.label46.Location = new System.Drawing.Point(23, 52);
+            this.label46.Name = "label46";
+            this.label46.Size = new System.Drawing.Size(72, 13);
+            this.label46.TabIndex = 3;
+            this.label46.Text = "Tambah Data";
             // 
-            // label37
+            // label47
             // 
-            this.label37.AutoSize = true;
-            this.label37.Location = new System.Drawing.Point(21, 55);
-            this.label37.Name = "label37";
-            this.label37.Size = new System.Drawing.Size(79, 13);
-            this.label37.TabIndex = 2;
-            this.label37.Text = "Tambah Kamar";
+            this.label47.AutoSize = true;
+            this.label47.BackColor = System.Drawing.Color.Transparent;
+            this.label47.Location = new System.Drawing.Point(42, 63);
+            this.label47.Name = "label47";
+            this.label47.Size = new System.Drawing.Size(34, 13);
+            this.label47.TabIndex = 4;
+            this.label47.Text = "Menu";
             // 
-            // label38
+            // label48
             // 
-            this.label38.AutoSize = true;
-            this.label38.Location = new System.Drawing.Point(143, 55);
-            this.label38.Name = "label38";
-            this.label38.Size = new System.Drawing.Size(44, 13);
-            this.label38.TabIndex = 3;
-            this.label38.Text = "Refresh";
+            this.label48.AutoSize = true;
+            this.label48.Location = new System.Drawing.Point(23, 50);
+            this.label48.Name = "label48";
+            this.label48.Size = new System.Drawing.Size(72, 13);
+            this.label48.TabIndex = 3;
+            this.label48.Text = "Tambah Data";
             // 
-            // label39
+            // label49
             // 
-            this.label39.AutoSize = true;
-            this.label39.Location = new System.Drawing.Point(370, 64);
-            this.label39.Name = "label39";
-            this.label39.Size = new System.Drawing.Size(84, 13);
-            this.label39.TabIndex = 7;
-            this.label39.Text = "Reset Password";
-            // 
-            // label40
-            // 
-            this.label40.AutoSize = true;
-            this.label40.BackColor = System.Drawing.Color.White;
-            this.label40.Location = new System.Drawing.Point(481, 56);
-            this.label40.Name = "label40";
-            this.label40.Size = new System.Drawing.Size(44, 13);
-            this.label40.TabIndex = 6;
-            this.label40.Text = "Refresh";
-            // 
-            // label41
-            // 
-            this.label41.AutoSize = true;
-            this.label41.Location = new System.Drawing.Point(360, 56);
-            this.label41.Name = "label41";
-            this.label41.Size = new System.Drawing.Size(73, 13);
-            this.label41.TabIndex = 7;
-            this.label41.Text = "Tambah Tipe ";
-            // 
-            // label42
-            // 
-            this.label42.AutoSize = true;
-            this.label42.Location = new System.Drawing.Point(143, 57);
-            this.label42.Name = "label42";
-            this.label42.Size = new System.Drawing.Size(44, 13);
-            this.label42.TabIndex = 2;
-            this.label42.Text = "Refresh";
-            // 
-            // label43
-            // 
-            this.label43.AutoSize = true;
-            this.label43.Location = new System.Drawing.Point(22, 55);
-            this.label43.Name = "label43";
-            this.label43.Size = new System.Drawing.Size(76, 13);
-            this.label43.TabIndex = 3;
-            this.label43.Text = "Tambah Tamu";
-            // 
-            // label44
-            // 
-            this.label44.AutoSize = true;
-            this.label44.Location = new System.Drawing.Point(143, 60);
-            this.label44.Name = "label44";
-            this.label44.Size = new System.Drawing.Size(44, 13);
-            this.label44.TabIndex = 2;
-            this.label44.Text = "Refresh";
+            this.label49.AutoSize = true;
+            this.label49.Location = new System.Drawing.Point(34, 62);
+            this.label49.Name = "label49";
+            this.label49.Size = new System.Drawing.Size(49, 13);
+            this.label49.TabIndex = 4;
+            this.label49.Text = "Pesanan";
             // 
             // FrmPenginapan
             // 
@@ -1855,6 +1918,7 @@ namespace penginapan
             this.groupBox9.ResumeLayout(false);
             this.groupBox9.PerformLayout();
             this.groupBox8.ResumeLayout(false);
+            this.groupBox8.PerformLayout();
             this.tabPage6.ResumeLayout(false);
             this.groupBox11.ResumeLayout(false);
             this.groupBox13.ResumeLayout(false);
@@ -2034,5 +2098,10 @@ namespace penginapan
         private System.Windows.Forms.Label label42;
         private System.Windows.Forms.Label label44;
         private System.Windows.Forms.Label label39;
+        private System.Windows.Forms.Label label49;
+        private System.Windows.Forms.Label label48;
+        private System.Windows.Forms.Label label47;
+        private System.Windows.Forms.Label label46;
+        private System.Windows.Forms.Label label45;
     }
 }

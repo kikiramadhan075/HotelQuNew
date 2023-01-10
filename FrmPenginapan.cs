@@ -23,6 +23,7 @@ namespace penginapan
 	{
 		DataGridViewButtonColumn CekOut;
 		DataGridViewButtonColumn EditTamu;
+		DataGridViewButtonColumn DeleteTamu;
 		public string id_user, namaUser, userName;
 		public FrmPenginapan()
 		{
@@ -473,6 +474,14 @@ namespace penginapan
             EditTamu .UseColumnTextForButtonValue = true;
             EditTamu .Width = 40;
             tampil.Columns.Add(EditTamu);
+			DeleteTamu = new DataGridViewButtonColumn();
+			DeleteTamu.HeaderText = "Hapus";
+			DeleteTamu.Text = "Hapus";
+			DeleteTamu.UseColumnTextForButtonValue = true;
+			DeleteTamu.Width = 50;
+			tampil.Columns.Add(DeleteTamu);
+			FrmUpdateTamu updateTamu = new FrmUpdateTamu();
+			
 		}
 		
 		void CekInTamuBaruToolStripMenuItemClick(object sender, EventArgs e)
@@ -523,6 +532,12 @@ namespace penginapan
             EditTamu .UseColumnTextForButtonValue = true;
             EditTamu .Width = 40;
             tampil.Columns.Add(EditTamu);
+			DeleteTamu = new DataGridViewButtonColumn();
+			DeleteTamu.HeaderText = "Hapus";
+			DeleteTamu.Text = "Hapus";
+			DeleteTamu.UseColumnTextForButtonValue = true;
+			DeleteTamu.Width = 50;
+			tampil.Columns.Add(DeleteTamu);
 		}
 		
 		void Button15Click(object sender, EventArgs e)
@@ -555,6 +570,12 @@ namespace penginapan
             EditTamu .UseColumnTextForButtonValue = true;
             EditTamu .Width = 40;
             tampil.Columns.Add(EditTamu);
+			DeleteTamu = new DataGridViewButtonColumn();
+			DeleteTamu.HeaderText = "Hapus";
+			DeleteTamu.Text = "Hapus";
+			DeleteTamu.UseColumnTextForButtonValue = true;
+			DeleteTamu.Width = 50;
+			tampil.Columns.Add(DeleteTamu);
 		}
 		
 		void Button22Click(object sender, EventArgs e)
@@ -608,7 +629,7 @@ namespace penginapan
 			DataTable table = new DataTable();
 			adap.Fill(table);
 			tampil.DataSource = table;
-			tampil.AllowUserToAddRows = false; // remove the null line
+			tampil.AllowUserToAddRows = false; // remove the null line 
             tampil.ReadOnly = true;
             tampil.Columns[0].HeaderText = "ID Reservasi";
             tampil.Columns[0].Width = 100; 
@@ -721,6 +742,24 @@ namespace penginapan
 				f8.id_user = id_user;
 				f8.Show();
 			}
+
+			int currentRows = int.Parse(e.RowIndex.ToString());
+			if (tampil.Columns[e.ColumnIndex] == CekOut && currentRows >= 0)
+            {
+				string nama = tampil[1, currentRow].Value.ToString();
+				string alamat = tampil[2, currentRow].Value.ToString();
+				string tlpn = tampil[3, currentRow].Value.ToString();
+				string jk = tampil[3, currentRow].Value.ToString();
+				string kerja = tampil[3, currentRow].Value.ToString();
+				FrmUpdateTamu updateTamu = new FrmUpdateTamu();
+				updateTamu.nama = nama;
+				updateTamu.alamat = alamat;
+				updateTamu.tlpn = tlpn;
+				updateTamu.kerja = kerja;
+				updateTamu.Show();
+			
+			}
+
 		}
 		
 		void Button27Click(object sender, EventArgs e)
@@ -756,6 +795,16 @@ namespace penginapan
         private void keluarLogOutToolStripMenuItem_Click(object sender, EventArgs e)
         {
 			this.Close();
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void tabPage1_Click(object sender, EventArgs e)
+        {
+
         }
 
         void Button28Click(object sender, EventArgs e)

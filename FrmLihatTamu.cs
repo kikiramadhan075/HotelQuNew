@@ -94,7 +94,7 @@ namespace penginapan
 
         private void tampil_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
-
+			if (tampil.Columns)
         }
     }
 }

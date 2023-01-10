@@ -149,6 +149,12 @@
     <Compile Include="FrmPreviewReport.Designer.cs">
       <DependentUpon>FrmPreviewReport.cs</DependentUpon>
     </Compile>
+    <Compile Include="FrmUpdateTamu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmUpdateTamu.Designer.cs">
+      <DependentUpon>FrmUpdateTamu.cs</DependentUpon>
+    </Compile>
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -252,6 +258,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FrmTambahTamu.resx">
       <DependentUpon>FrmTambahTamu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmUpdateTamu.resx">
+      <DependentUpon>FrmUpdateTamu.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MainForm.resx">
       <DependentUpon>MainForm.cs</DependentUpon>

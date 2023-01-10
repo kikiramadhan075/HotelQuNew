@@ -124,10 +124,15 @@ namespace penginapan
             this.button26 = new System.Windows.Forms.Button();
             this.idRsPesan = new System.Windows.Forms.TextBox();
             this.groupBox9 = new System.Windows.Forms.GroupBox();
+            this.label49 = new System.Windows.Forms.Label();
+            this.label48 = new System.Windows.Forms.Label();
             this.label44 = new System.Windows.Forms.Label();
             this.button23 = new System.Windows.Forms.Button();
             this.button24 = new System.Windows.Forms.Button();
             this.groupBox8 = new System.Windows.Forms.GroupBox();
+            this.label47 = new System.Windows.Forms.Label();
+            this.label46 = new System.Windows.Forms.Label();
+            this.label45 = new System.Windows.Forms.Label();
             this.button21 = new System.Windows.Forms.Button();
             this.button22 = new System.Windows.Forms.Button();
             this.tabPage6 = new System.Windows.Forms.TabPage();
@@ -194,11 +199,6 @@ namespace penginapan
             this.namaTerang = new System.Windows.Forms.Label();
             this.usernameTerang = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.label45 = new System.Windows.Forms.Label();
-            this.label46 = new System.Windows.Forms.Label();
-            this.label47 = new System.Windows.Forms.Label();
-            this.label48 = new System.Windows.Forms.Label();
-            this.label49 = new System.Windows.Forms.Label();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.groupBox2.SuspendLayout();
@@ -269,6 +269,7 @@ namespace penginapan
             this.tabPage1.Size = new System.Drawing.Size(898, 104);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "Reservasi Center";
+            this.tabPage1.Click += new System.EventHandler(this.tabPage1_Click);
             // 
             // groupBox2
             // 
@@ -1130,6 +1131,24 @@ namespace penginapan
             this.groupBox9.TabStop = false;
             this.groupBox9.Text = "Data Pesanan Makanan - Minuman";
             // 
+            // label49
+            // 
+            this.label49.AutoSize = true;
+            this.label49.Location = new System.Drawing.Point(34, 62);
+            this.label49.Name = "label49";
+            this.label49.Size = new System.Drawing.Size(49, 13);
+            this.label49.TabIndex = 4;
+            this.label49.Text = "Pesanan";
+            // 
+            // label48
+            // 
+            this.label48.AutoSize = true;
+            this.label48.Location = new System.Drawing.Point(23, 50);
+            this.label48.Name = "label48";
+            this.label48.Size = new System.Drawing.Size(72, 13);
+            this.label48.TabIndex = 3;
+            this.label48.Text = "Tambah Data";
+            // 
             // label44
             // 
             this.label44.AutoSize = true;
@@ -1177,6 +1196,35 @@ namespace penginapan
             this.groupBox8.TabIndex = 9;
             this.groupBox8.TabStop = false;
             this.groupBox8.Text = "Data Menu Makanan - Minuman";
+            // 
+            // label47
+            // 
+            this.label47.AutoSize = true;
+            this.label47.BackColor = System.Drawing.Color.Transparent;
+            this.label47.Location = new System.Drawing.Point(42, 63);
+            this.label47.Name = "label47";
+            this.label47.Size = new System.Drawing.Size(34, 13);
+            this.label47.TabIndex = 4;
+            this.label47.Text = "Menu";
+            // 
+            // label46
+            // 
+            this.label46.AutoSize = true;
+            this.label46.BackColor = System.Drawing.Color.Transparent;
+            this.label46.Location = new System.Drawing.Point(23, 52);
+            this.label46.Name = "label46";
+            this.label46.Size = new System.Drawing.Size(72, 13);
+            this.label46.TabIndex = 3;
+            this.label46.Text = "Tambah Data";
+            // 
+            // label45
+            // 
+            this.label45.AutoSize = true;
+            this.label45.Location = new System.Drawing.Point(144, 59);
+            this.label45.Name = "label45";
+            this.label45.Size = new System.Drawing.Size(44, 13);
+            this.label45.TabIndex = 2;
+            this.label45.Text = "Refresh";
             // 
             // button21
             // 
@@ -1678,7 +1726,7 @@ namespace penginapan
             // keluarLogOutToolStripMenuItem
             // 
             this.keluarLogOutToolStripMenuItem.Name = "keluarLogOutToolStripMenuItem";
-            this.keluarLogOutToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.keluarLogOutToolStripMenuItem.Size = new System.Drawing.Size(156, 22);
             this.keluarLogOutToolStripMenuItem.Text = "Keluar & Log Out";
             // 
             // keteranganAplikasiToolStripMenuItem
@@ -1803,53 +1851,7 @@ namespace penginapan
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 15;
             this.pictureBox1.TabStop = false;
-            // 
-            // label45
-            // 
-            this.label45.AutoSize = true;
-            this.label45.Location = new System.Drawing.Point(144, 59);
-            this.label45.Name = "label45";
-            this.label45.Size = new System.Drawing.Size(44, 13);
-            this.label45.TabIndex = 2;
-            this.label45.Text = "Refresh";
-            // 
-            // label46
-            // 
-            this.label46.AutoSize = true;
-            this.label46.BackColor = System.Drawing.Color.Transparent;
-            this.label46.Location = new System.Drawing.Point(23, 52);
-            this.label46.Name = "label46";
-            this.label46.Size = new System.Drawing.Size(72, 13);
-            this.label46.TabIndex = 3;
-            this.label46.Text = "Tambah Data";
-            // 
-            // label47
-            // 
-            this.label47.AutoSize = true;
-            this.label47.BackColor = System.Drawing.Color.Transparent;
-            this.label47.Location = new System.Drawing.Point(42, 63);
-            this.label47.Name = "label47";
-            this.label47.Size = new System.Drawing.Size(34, 13);
-            this.label47.TabIndex = 4;
-            this.label47.Text = "Menu";
-            // 
-            // label48
-            // 
-            this.label48.AutoSize = true;
-            this.label48.Location = new System.Drawing.Point(23, 50);
-            this.label48.Name = "label48";
-            this.label48.Size = new System.Drawing.Size(72, 13);
-            this.label48.TabIndex = 3;
-            this.label48.Text = "Tambah Data";
-            // 
-            // label49
-            // 
-            this.label49.AutoSize = true;
-            this.label49.Location = new System.Drawing.Point(34, 62);
-            this.label49.Name = "label49";
-            this.label49.Size = new System.Drawing.Size(49, 13);
-            this.label49.TabIndex = 4;
-            this.label49.Text = "Pesanan";
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
             // FrmPenginapan
             // 

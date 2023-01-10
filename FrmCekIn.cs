@@ -155,5 +155,10 @@ namespace penginapan
 			FrmLihatTipe f11 = new FrmLihatTipe();
 			f11.Show();
 		}
-	}
+
+        private void FrmCekIn_Load(object sender, EventArgs e)
+        {
+
+        }
+    }
 }

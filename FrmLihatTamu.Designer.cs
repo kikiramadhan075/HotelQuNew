@@ -36,7 +36,6 @@ namespace penginapan
 		/// </summary>
 		private void InitializeComponent()
 		{
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmLihatTamu));
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.tampil = new System.Windows.Forms.DataGridView();
             this.tabControl5 = new System.Windows.Forms.TabControl();
@@ -59,11 +58,9 @@ namespace penginapan
             // 
             this.groupBox1.BackColor = System.Drawing.Color.Transparent;
             this.groupBox1.Controls.Add(this.tampil);
-            this.groupBox1.Location = new System.Drawing.Point(16, 15);
-            this.groupBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox1.Location = new System.Drawing.Point(12, 12);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.groupBox1.Size = new System.Drawing.Size(748, 293);
+            this.groupBox1.Size = new System.Drawing.Size(561, 238);
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Data Tamu";
@@ -71,11 +68,10 @@ namespace penginapan
             // tampil
             // 
             this.tampil.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.tampil.Location = new System.Drawing.Point(8, 23);
-            this.tampil.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tampil.Location = new System.Drawing.Point(6, 19);
             this.tampil.Name = "tampil";
             this.tampil.RowHeadersWidth = 51;
-            this.tampil.Size = new System.Drawing.Size(732, 262);
+            this.tampil.Size = new System.Drawing.Size(549, 213);
             this.tampil.TabIndex = 0;
             this.tampil.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.tampil_CellContentClick);
             // 
@@ -83,11 +79,10 @@ namespace penginapan
             // 
             this.tabControl5.Controls.Add(this.tabPage17);
             this.tabControl5.Controls.Add(this.tabPage18);
-            this.tabControl5.Location = new System.Drawing.Point(16, 315);
-            this.tabControl5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tabControl5.Location = new System.Drawing.Point(12, 256);
             this.tabControl5.Name = "tabControl5";
             this.tabControl5.SelectedIndex = 0;
-            this.tabControl5.Size = new System.Drawing.Size(748, 73);
+            this.tabControl5.Size = new System.Drawing.Size(561, 59);
             this.tabControl5.TabIndex = 1;
             // 
             // tabPage17
@@ -95,30 +90,27 @@ namespace penginapan
             this.tabPage17.Controls.Add(this.label17);
             this.tabPage17.Controls.Add(this.button16);
             this.tabPage17.Controls.Add(this.nmTamu);
-            this.tabPage17.Location = new System.Drawing.Point(4, 25);
-            this.tabPage17.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tabPage17.Location = new System.Drawing.Point(4, 22);
             this.tabPage17.Name = "tabPage17";
-            this.tabPage17.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.tabPage17.Size = new System.Drawing.Size(740, 44);
+            this.tabPage17.Padding = new System.Windows.Forms.Padding(3, 3, 3, 3);
+            this.tabPage17.Size = new System.Drawing.Size(553, 33);
             this.tabPage17.TabIndex = 1;
             this.tabPage17.Text = "Cari Berdasarkan Nama Tamu";
             this.tabPage17.UseVisualStyleBackColor = true;
             // 
             // label17
             // 
-            this.label17.Location = new System.Drawing.Point(11, 10);
-            this.label17.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label17.Location = new System.Drawing.Point(8, 8);
             this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(104, 25);
+            this.label17.Size = new System.Drawing.Size(78, 20);
             this.label17.TabIndex = 5;
             this.label17.Text = "Nama Tamu :";
             // 
             // button16
             // 
-            this.button16.Location = new System.Drawing.Point(399, 6);
-            this.button16.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button16.Location = new System.Drawing.Point(299, 5);
             this.button16.Name = "button16";
-            this.button16.Size = new System.Drawing.Size(100, 28);
+            this.button16.Size = new System.Drawing.Size(75, 23);
             this.button16.TabIndex = 4;
             this.button16.Text = "Cari";
             this.button16.UseVisualStyleBackColor = true;
@@ -126,10 +118,9 @@ namespace penginapan
             // 
             // nmTamu
             // 
-            this.nmTamu.Location = new System.Drawing.Point(123, 7);
-            this.nmTamu.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.nmTamu.Location = new System.Drawing.Point(92, 6);
             this.nmTamu.Name = "nmTamu";
-            this.nmTamu.Size = new System.Drawing.Size(267, 22);
+            this.nmTamu.Size = new System.Drawing.Size(201, 20);
             this.nmTamu.TabIndex = 3;
             // 
             // tabPage18
@@ -137,30 +128,27 @@ namespace penginapan
             this.tabPage18.Controls.Add(this.label16);
             this.tabPage18.Controls.Add(this.button15);
             this.tabPage18.Controls.Add(this.almtTamu);
-            this.tabPage18.Location = new System.Drawing.Point(4, 25);
-            this.tabPage18.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tabPage18.Location = new System.Drawing.Point(4, 22);
             this.tabPage18.Name = "tabPage18";
-            this.tabPage18.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.tabPage18.Size = new System.Drawing.Size(740, 44);
+            this.tabPage18.Padding = new System.Windows.Forms.Padding(3, 3, 3, 3);
+            this.tabPage18.Size = new System.Drawing.Size(553, 33);
             this.tabPage18.TabIndex = 2;
             this.tabPage18.Text = "Cari Berdasarkan Alamat Tamu";
             this.tabPage18.UseVisualStyleBackColor = true;
             // 
             // label16
             // 
-            this.label16.Location = new System.Drawing.Point(12, 10);
-            this.label16.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label16.Location = new System.Drawing.Point(9, 8);
             this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(104, 25);
+            this.label16.Size = new System.Drawing.Size(78, 20);
             this.label16.TabIndex = 8;
             this.label16.Text = "Alamat Tamu:";
             // 
             // button15
             // 
-            this.button15.Location = new System.Drawing.Point(400, 6);
-            this.button15.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button15.Location = new System.Drawing.Point(300, 5);
             this.button15.Name = "button15";
-            this.button15.Size = new System.Drawing.Size(100, 28);
+            this.button15.Size = new System.Drawing.Size(75, 23);
             this.button15.TabIndex = 7;
             this.button15.Text = "Cari";
             this.button15.UseVisualStyleBackColor = true;
@@ -168,22 +156,20 @@ namespace penginapan
             // 
             // almtTamu
             // 
-            this.almtTamu.Location = new System.Drawing.Point(124, 7);
-            this.almtTamu.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.almtTamu.Location = new System.Drawing.Point(93, 6);
             this.almtTamu.Name = "almtTamu";
-            this.almtTamu.Size = new System.Drawing.Size(267, 22);
+            this.almtTamu.Size = new System.Drawing.Size(201, 20);
             this.almtTamu.TabIndex = 6;
             // 
             // FrmLihatTamu
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
-            this.ClientSize = new System.Drawing.Size(780, 407);
+            this.BackColor = System.Drawing.Color.DodgerBlue;
+            this.ClientSize = new System.Drawing.Size(585, 331);
             this.Controls.Add(this.tabControl5);
             this.Controls.Add(this.groupBox1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.MaximizeBox = false;
             this.Name = "FrmLihatTamu";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;

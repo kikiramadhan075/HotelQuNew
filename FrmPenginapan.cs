@@ -752,8 +752,13 @@ namespace penginapan
 				MessageBox.Show(err.ToString());
 			}
 		}
-		
-		void Button28Click(object sender, EventArgs e)
+
+        private void keluarLogOutToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+			this.Close();
+        }
+
+        void Button28Click(object sender, EventArgs e)
 		{
 			try {
 				int bulan = Convert.ToInt32(cmbBlnLaporan.Text.ToString());

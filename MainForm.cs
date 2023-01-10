@@ -69,5 +69,10 @@ namespace penginapan
 						MessageBox.Show(err.ToString());
 					}
 		}
-	}
+
+        private void MainForm_Load(object sender, EventArgs e)
+        {
+
+        }
+    }
 }

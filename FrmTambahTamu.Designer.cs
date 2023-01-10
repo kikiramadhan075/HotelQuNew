@@ -196,6 +196,7 @@ namespace penginapan
             this.Name = "FrmTambahTamu";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FrmTambahTamu";
+            this.Load += new System.EventHandler(this.FrmTambahTamu_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();

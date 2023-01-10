@@ -43,5 +43,10 @@ namespace penginapan
 				MessageBox.Show(err.ToString());
 			}
 		}
-	}
+
+        private void FrmTambahTamu_Load(object sender, EventArgs e)
+        {
+
+        }
+    }
 }

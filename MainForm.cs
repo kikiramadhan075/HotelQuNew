@@ -62,7 +62,7 @@ namespace penginapan
 						this.Hide();
 					}
 					else{
-						MessageBox.Show("Uppppzzzz...!!!!\nPassword dan Username salah....!!!!","Terjadi Error Coy...!!!!");
+						MessageBox.Show("Uppppzzzz...!!!!\nPassword dan Username dengan benar....!!!!","Terjadi Error...!!!!");
 					}
 					koneksiB.Close();
 					} catch (Exception err) {
@@ -71,6 +71,11 @@ namespace penginapan
 		}
 
         private void MainForm_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
         {
 
         }

@@ -744,8 +744,8 @@ namespace penginapan
 			}
 
 			int currentRows = int.Parse(e.RowIndex.ToString());
-			if (tampil.Columns[e.ColumnIndex] == CekOut && currentRows >= 0)
-            {
+			if (tampil.Columns[e.ColumnIndex] == EditTamu && currentRows >= 0)
+			{
 				string nama = tampil[1, currentRow].Value.ToString();
 				string alamat = tampil[2, currentRow].Value.ToString();
 				string tlpn = tampil[3, currentRow].Value.ToString();
@@ -757,10 +757,11 @@ namespace penginapan
 				updateTamu.tlpn = tlpn;
 				updateTamu.kerja = kerja;
 				updateTamu.Show();
-			
-			}
 
+			}
 		}
+
+
 		
 		void Button27Click(object sender, EventArgs e)
 		{
@@ -803,6 +804,11 @@ namespace penginapan
         }
 
         private void tabPage1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void tabPage4_Click(object sender, EventArgs e)
         {
 
         }

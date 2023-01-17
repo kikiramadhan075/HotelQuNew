@@ -61,10 +61,6 @@ namespace penginapan
 					f1.Show();
 					this.Hide();
 				}
-				else if (usrName.Text == "" || psWord.Text == "")
-                {
-					MessageBox.Show("Mohon Masukkan Username dan Password!!!");
-                }
 				else {
 					MessageBox.Show("Uppppzzzz...!!!!\nPassword dan Username dengan benar....!!!!", "Terjadi Error!!!!");
 				}

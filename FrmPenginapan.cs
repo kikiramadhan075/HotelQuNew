@@ -813,6 +813,11 @@ namespace penginapan
 
         }
 
+        private void label50_Click(object sender, EventArgs e)
+        {
+
+        }
+
         void Button28Click(object sender, EventArgs e)
 		{
 			try {

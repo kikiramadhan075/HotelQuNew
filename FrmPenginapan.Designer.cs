@@ -61,8 +61,6 @@ namespace penginapan
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.label36 = new System.Windows.Forms.Label();
             this.label35 = new System.Windows.Forms.Label();
-            this.refreshReservasi = new System.Windows.Forms.Button();
-            this.cekIn = new System.Windows.Forms.Button();
             this.tabPage2 = new System.Windows.Forms.TabPage();
             this.groupBox4 = new System.Windows.Forms.GroupBox();
             this.tabControl3 = new System.Windows.Forms.TabControl();
@@ -78,8 +76,6 @@ namespace penginapan
             this.groupBox3 = new System.Windows.Forms.GroupBox();
             this.label38 = new System.Windows.Forms.Label();
             this.label37 = new System.Windows.Forms.Label();
-            this.refreshKamar = new System.Windows.Forms.Button();
-            this.tmbKamar = new System.Windows.Forms.Button();
             this.tabPage3 = new System.Windows.Forms.TabPage();
             this.groupBox5 = new System.Windows.Forms.GroupBox();
             this.label41 = new System.Windows.Forms.Label();
@@ -88,8 +84,6 @@ namespace penginapan
             this.label10 = new System.Windows.Forms.Label();
             this.namaTipe = new System.Windows.Forms.TextBox();
             this.label9 = new System.Windows.Forms.Label();
-            this.refreshTipeKamar = new System.Windows.Forms.Button();
-            this.button10 = new System.Windows.Forms.Button();
             this.tabPage4 = new System.Windows.Forms.TabPage();
             this.groupBox6 = new System.Windows.Forms.GroupBox();
             this.tabControl5 = new System.Windows.Forms.TabControl();
@@ -104,8 +98,6 @@ namespace penginapan
             this.groupBox7 = new System.Windows.Forms.GroupBox();
             this.label43 = new System.Windows.Forms.Label();
             this.label42 = new System.Windows.Forms.Label();
-            this.button19 = new System.Windows.Forms.Button();
-            this.button20 = new System.Windows.Forms.Button();
             this.tabPage5 = new System.Windows.Forms.TabPage();
             this.groupBox10 = new System.Windows.Forms.GroupBox();
             this.tabControl6 = new System.Windows.Forms.TabControl();
@@ -127,14 +119,10 @@ namespace penginapan
             this.label49 = new System.Windows.Forms.Label();
             this.label48 = new System.Windows.Forms.Label();
             this.label44 = new System.Windows.Forms.Label();
-            this.button23 = new System.Windows.Forms.Button();
-            this.button24 = new System.Windows.Forms.Button();
             this.groupBox8 = new System.Windows.Forms.GroupBox();
             this.label47 = new System.Windows.Forms.Label();
             this.label46 = new System.Windows.Forms.Label();
             this.label45 = new System.Windows.Forms.Label();
-            this.button21 = new System.Windows.Forms.Button();
-            this.button22 = new System.Windows.Forms.Button();
             this.tabPage6 = new System.Windows.Forms.TabPage();
             this.groupBox11 = new System.Windows.Forms.GroupBox();
             this.groupBox13 = new System.Windows.Forms.GroupBox();
@@ -148,12 +136,9 @@ namespace penginapan
             this.label26 = new System.Windows.Forms.Label();
             this.cmbThnLaporan = new System.Windows.Forms.ComboBox();
             this.cmbBlnLaporan = new System.Windows.Forms.ComboBox();
-            this.button27 = new System.Windows.Forms.Button();
-            this.button28 = new System.Windows.Forms.Button();
             this.tabPage7 = new System.Windows.Forms.TabPage();
             this.groupBox14 = new System.Windows.Forms.GroupBox();
             this.label39 = new System.Windows.Forms.Label();
-            this.button29 = new System.Windows.Forms.Button();
             this.pswBaru = new System.Windows.Forms.TextBox();
             this.pswLama = new System.Windows.Forms.TextBox();
             this.usrNameDefault = new System.Windows.Forms.TextBox();
@@ -180,8 +165,29 @@ namespace penginapan
             this.comboBox2 = new System.Windows.Forms.ComboBox();
             this.label15 = new System.Windows.Forms.Label();
             this.comboBox3 = new System.Windows.Forms.ComboBox();
-            this.button13 = new System.Windows.Forms.Button();
-            this.button14 = new System.Windows.Forms.Button();
+            this.jamTanggal = new System.Windows.Forms.Label();
+            this.label18 = new System.Windows.Forms.Label();
+            this.label19 = new System.Windows.Forms.Label();
+            this.label25 = new System.Windows.Forms.Label();
+            this.namaTerang = new System.Windows.Forms.Label();
+            this.usernameTerang = new System.Windows.Forms.Label();
+            this.label50 = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.refreshReservasi = new System.Windows.Forms.Button();
+            this.cekIn = new System.Windows.Forms.Button();
+            this.refreshKamar = new System.Windows.Forms.Button();
+            this.tmbKamar = new System.Windows.Forms.Button();
+            this.refreshTipeKamar = new System.Windows.Forms.Button();
+            this.button10 = new System.Windows.Forms.Button();
+            this.button19 = new System.Windows.Forms.Button();
+            this.button20 = new System.Windows.Forms.Button();
+            this.button23 = new System.Windows.Forms.Button();
+            this.button24 = new System.Windows.Forms.Button();
+            this.button21 = new System.Windows.Forms.Button();
+            this.button22 = new System.Windows.Forms.Button();
+            this.button27 = new System.Windows.Forms.Button();
+            this.button28 = new System.Windows.Forms.Button();
+            this.button29 = new System.Windows.Forms.Button();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.aplikasiToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.keluarLogOutToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -190,15 +196,11 @@ namespace penginapan
             this.cekOutTamuToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.dataKamarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.tambahDataKamarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.button13 = new System.Windows.Forms.Button();
+            this.button14 = new System.Windows.Forms.Button();
             this.button17 = new System.Windows.Forms.Button();
             this.button18 = new System.Windows.Forms.Button();
-            this.jamTanggal = new System.Windows.Forms.Label();
-            this.label18 = new System.Windows.Forms.Label();
-            this.label19 = new System.Windows.Forms.Label();
-            this.label25 = new System.Windows.Forms.Label();
-            this.namaTerang = new System.Windows.Forms.Label();
-            this.usernameTerang = new System.Windows.Forms.Label();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.label51 = new System.Windows.Forms.Label();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.groupBox2.SuspendLayout();
@@ -239,8 +241,8 @@ namespace penginapan
             this.tabPage13.SuspendLayout();
             this.tabPage14.SuspendLayout();
             this.tabPage15.SuspendLayout();
-            this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
             // tabControl1
@@ -486,31 +488,6 @@ namespace penginapan
             this.label35.TabIndex = 2;
             this.label35.Text = "Cek In";
             // 
-            // refreshReservasi
-            // 
-            this.refreshReservasi.BackColor = System.Drawing.Color.White;
-            this.refreshReservasi.Image = ((System.Drawing.Image)(resources.GetObject("refreshReservasi.Image")));
-            this.refreshReservasi.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.refreshReservasi.Location = new System.Drawing.Point(115, 19);
-            this.refreshReservasi.Name = "refreshReservasi";
-            this.refreshReservasi.Size = new System.Drawing.Size(100, 60);
-            this.refreshReservasi.TabIndex = 1;
-            this.refreshReservasi.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.refreshReservasi.UseVisualStyleBackColor = false;
-            this.refreshReservasi.Click += new System.EventHandler(this.RefreshReservasiClick);
-            // 
-            // cekIn
-            // 
-            this.cekIn.BackColor = System.Drawing.Color.White;
-            this.cekIn.Image = ((System.Drawing.Image)(resources.GetObject("cekIn.Image")));
-            this.cekIn.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.cekIn.Location = new System.Drawing.Point(9, 19);
-            this.cekIn.Name = "cekIn";
-            this.cekIn.Size = new System.Drawing.Size(100, 60);
-            this.cekIn.TabIndex = 0;
-            this.cekIn.UseVisualStyleBackColor = false;
-            this.cekIn.Click += new System.EventHandler(this.CekInClick);
-            // 
             // tabPage2
             // 
             this.tabPage2.Controls.Add(this.groupBox4);
@@ -663,31 +640,6 @@ namespace penginapan
             this.label37.TabIndex = 2;
             this.label37.Text = "Tambah Kamar";
             // 
-            // refreshKamar
-            // 
-            this.refreshKamar.BackColor = System.Drawing.Color.White;
-            this.refreshKamar.Image = ((System.Drawing.Image)(resources.GetObject("refreshKamar.Image")));
-            this.refreshKamar.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.refreshKamar.Location = new System.Drawing.Point(115, 20);
-            this.refreshKamar.Name = "refreshKamar";
-            this.refreshKamar.Size = new System.Drawing.Size(100, 60);
-            this.refreshKamar.TabIndex = 1;
-            this.refreshKamar.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.refreshKamar.UseVisualStyleBackColor = false;
-            this.refreshKamar.Click += new System.EventHandler(this.RefreshKamarClick);
-            // 
-            // tmbKamar
-            // 
-            this.tmbKamar.BackColor = System.Drawing.Color.White;
-            this.tmbKamar.Image = ((System.Drawing.Image)(resources.GetObject("tmbKamar.Image")));
-            this.tmbKamar.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.tmbKamar.Location = new System.Drawing.Point(9, 19);
-            this.tmbKamar.Name = "tmbKamar";
-            this.tmbKamar.Size = new System.Drawing.Size(100, 60);
-            this.tmbKamar.TabIndex = 0;
-            this.tmbKamar.UseVisualStyleBackColor = false;
-            this.tmbKamar.Click += new System.EventHandler(this.TmbKamarClick);
-            // 
             // tabPage3
             // 
             this.tabPage3.Controls.Add(this.groupBox5);
@@ -764,31 +716,6 @@ namespace penginapan
             this.label9.Size = new System.Drawing.Size(139, 23);
             this.label9.TabIndex = 2;
             this.label9.Text = "Nama Tipe Kamar :";
-            // 
-            // refreshTipeKamar
-            // 
-            this.refreshTipeKamar.BackColor = System.Drawing.Color.White;
-            this.refreshTipeKamar.Image = ((System.Drawing.Image)(resources.GetObject("refreshTipeKamar.Image")));
-            this.refreshTipeKamar.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.refreshTipeKamar.Location = new System.Drawing.Point(452, 19);
-            this.refreshTipeKamar.Name = "refreshTipeKamar";
-            this.refreshTipeKamar.Size = new System.Drawing.Size(100, 60);
-            this.refreshTipeKamar.TabIndex = 1;
-            this.refreshTipeKamar.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.refreshTipeKamar.UseVisualStyleBackColor = false;
-            this.refreshTipeKamar.Click += new System.EventHandler(this.RefreshTipeKamarClick);
-            // 
-            // button10
-            // 
-            this.button10.BackColor = System.Drawing.Color.White;
-            this.button10.Image = ((System.Drawing.Image)(resources.GetObject("button10.Image")));
-            this.button10.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.button10.Location = new System.Drawing.Point(346, 19);
-            this.button10.Name = "button10";
-            this.button10.Size = new System.Drawing.Size(100, 60);
-            this.button10.TabIndex = 0;
-            this.button10.UseVisualStyleBackColor = false;
-            this.button10.Click += new System.EventHandler(this.Button10Click);
             // 
             // tabPage4
             // 
@@ -929,31 +856,6 @@ namespace penginapan
             this.label42.Size = new System.Drawing.Size(44, 13);
             this.label42.TabIndex = 2;
             this.label42.Text = "Refresh";
-            // 
-            // button19
-            // 
-            this.button19.BackColor = System.Drawing.Color.White;
-            this.button19.Image = ((System.Drawing.Image)(resources.GetObject("button19.Image")));
-            this.button19.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.button19.Location = new System.Drawing.Point(115, 20);
-            this.button19.Name = "button19";
-            this.button19.Size = new System.Drawing.Size(100, 60);
-            this.button19.TabIndex = 1;
-            this.button19.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.button19.UseVisualStyleBackColor = false;
-            this.button19.Click += new System.EventHandler(this.Button19Click);
-            // 
-            // button20
-            // 
-            this.button20.BackColor = System.Drawing.Color.White;
-            this.button20.Image = ((System.Drawing.Image)(resources.GetObject("button20.Image")));
-            this.button20.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.button20.Location = new System.Drawing.Point(9, 19);
-            this.button20.Name = "button20";
-            this.button20.Size = new System.Drawing.Size(100, 60);
-            this.button20.TabIndex = 0;
-            this.button20.UseVisualStyleBackColor = false;
-            this.button20.Click += new System.EventHandler(this.Button20Click);
             // 
             // tabPage5
             // 
@@ -1159,31 +1061,6 @@ namespace penginapan
             this.label44.TabIndex = 2;
             this.label44.Text = "Refresh";
             // 
-            // button23
-            // 
-            this.button23.BackColor = System.Drawing.Color.White;
-            this.button23.Image = ((System.Drawing.Image)(resources.GetObject("button23.Image")));
-            this.button23.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.button23.Location = new System.Drawing.Point(115, 20);
-            this.button23.Name = "button23";
-            this.button23.Size = new System.Drawing.Size(100, 60);
-            this.button23.TabIndex = 1;
-            this.button23.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.button23.UseVisualStyleBackColor = false;
-            this.button23.Click += new System.EventHandler(this.Button23Click);
-            // 
-            // button24
-            // 
-            this.button24.BackColor = System.Drawing.Color.White;
-            this.button24.Image = ((System.Drawing.Image)(resources.GetObject("button24.Image")));
-            this.button24.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.button24.Location = new System.Drawing.Point(9, 19);
-            this.button24.Name = "button24";
-            this.button24.Size = new System.Drawing.Size(100, 60);
-            this.button24.TabIndex = 0;
-            this.button24.UseVisualStyleBackColor = false;
-            this.button24.Click += new System.EventHandler(this.Button24Click);
-            // 
             // groupBox8
             // 
             this.groupBox8.Controls.Add(this.label47);
@@ -1227,31 +1104,6 @@ namespace penginapan
             this.label45.TabIndex = 2;
             this.label45.Text = "Refresh";
             // 
-            // button21
-            // 
-            this.button21.BackColor = System.Drawing.Color.White;
-            this.button21.Image = ((System.Drawing.Image)(resources.GetObject("button21.Image")));
-            this.button21.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.button21.Location = new System.Drawing.Point(115, 20);
-            this.button21.Name = "button21";
-            this.button21.Size = new System.Drawing.Size(100, 60);
-            this.button21.TabIndex = 1;
-            this.button21.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.button21.UseVisualStyleBackColor = false;
-            this.button21.Click += new System.EventHandler(this.Button21Click);
-            // 
-            // button22
-            // 
-            this.button22.BackColor = System.Drawing.Color.White;
-            this.button22.Image = ((System.Drawing.Image)(resources.GetObject("button22.Image")));
-            this.button22.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.button22.Location = new System.Drawing.Point(9, 19);
-            this.button22.Name = "button22";
-            this.button22.Size = new System.Drawing.Size(100, 60);
-            this.button22.TabIndex = 0;
-            this.button22.UseVisualStyleBackColor = false;
-            this.button22.Click += new System.EventHandler(this.Button22Click);
-            // 
             // tabPage6
             // 
             this.tabPage6.Controls.Add(this.groupBox11);
@@ -1265,6 +1117,8 @@ namespace penginapan
             // 
             // groupBox11
             // 
+            this.groupBox11.Controls.Add(this.label51);
+            this.groupBox11.Controls.Add(this.label50);
             this.groupBox11.Controls.Add(this.groupBox13);
             this.groupBox11.Controls.Add(this.groupBox12);
             this.groupBox11.Controls.Add(this.button27);
@@ -1375,27 +1229,6 @@ namespace penginapan
             this.cmbBlnLaporan.Size = new System.Drawing.Size(72, 21);
             this.cmbBlnLaporan.TabIndex = 11;
             // 
-            // button27
-            // 
-            this.button27.Image = ((System.Drawing.Image)(resources.GetObject("button27.Image")));
-            this.button27.Location = new System.Drawing.Point(330, 25);
-            this.button27.Name = "button27";
-            this.button27.Size = new System.Drawing.Size(100, 60);
-            this.button27.TabIndex = 1;
-            this.button27.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.button27.UseVisualStyleBackColor = true;
-            this.button27.Click += new System.EventHandler(this.Button27Click);
-            // 
-            // button28
-            // 
-            this.button28.Image = ((System.Drawing.Image)(resources.GetObject("button28.Image")));
-            this.button28.Location = new System.Drawing.Point(224, 24);
-            this.button28.Name = "button28";
-            this.button28.Size = new System.Drawing.Size(100, 60);
-            this.button28.TabIndex = 0;
-            this.button28.UseVisualStyleBackColor = true;
-            this.button28.Click += new System.EventHandler(this.Button28Click);
-            // 
             // tabPage7
             // 
             this.tabPage7.Controls.Add(this.groupBox14);
@@ -1432,18 +1265,6 @@ namespace penginapan
             this.label39.Size = new System.Drawing.Size(84, 13);
             this.label39.TabIndex = 7;
             this.label39.Text = "Reset Password";
-            // 
-            // button29
-            // 
-            this.button29.BackColor = System.Drawing.Color.White;
-            this.button29.Image = ((System.Drawing.Image)(resources.GetObject("button29.Image")));
-            this.button29.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.button29.Location = new System.Drawing.Point(362, 13);
-            this.button29.Name = "button29";
-            this.button29.Size = new System.Drawing.Size(100, 69);
-            this.button29.TabIndex = 1;
-            this.button29.UseVisualStyleBackColor = false;
-            this.button29.Click += new System.EventHandler(this.Button29Click);
             // 
             // pswBaru
             // 
@@ -1683,24 +1504,270 @@ namespace penginapan
             this.comboBox3.Size = new System.Drawing.Size(49, 21);
             this.comboBox3.TabIndex = 0;
             // 
-            // button13
+            // jamTanggal
             // 
-            this.button13.Image = ((System.Drawing.Image)(resources.GetObject("button13.Image")));
-            this.button13.Location = new System.Drawing.Point(115, 20);
-            this.button13.Name = "button13";
-            this.button13.Size = new System.Drawing.Size(100, 60);
-            this.button13.TabIndex = 1;
-            this.button13.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.button13.UseVisualStyleBackColor = true;
+            this.jamTanggal.BackColor = System.Drawing.Color.Transparent;
+            this.jamTanggal.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.jamTanggal.Location = new System.Drawing.Point(838, 151);
+            this.jamTanggal.Name = "jamTanggal";
+            this.jamTanggal.Size = new System.Drawing.Size(77, 13);
+            this.jamTanggal.TabIndex = 9;
             // 
-            // button14
+            // label18
             // 
-            this.button14.Image = ((System.Drawing.Image)(resources.GetObject("button14.Image")));
-            this.button14.Location = new System.Drawing.Point(9, 19);
-            this.button14.Name = "button14";
-            this.button14.Size = new System.Drawing.Size(100, 60);
-            this.button14.TabIndex = 0;
-            this.button14.UseVisualStyleBackColor = true;
+            this.label18.BackColor = System.Drawing.Color.Transparent;
+            this.label18.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label18.Location = new System.Drawing.Point(733, 151);
+            this.label18.Name = "label18";
+            this.label18.Size = new System.Drawing.Size(99, 13);
+            this.label18.TabIndex = 10;
+            this.label18.Text = "Anda Log In pada :";
+            // 
+            // label19
+            // 
+            this.label19.BackColor = System.Drawing.Color.Transparent;
+            this.label19.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label19.Location = new System.Drawing.Point(12, 150);
+            this.label19.Name = "label19";
+            this.label19.Size = new System.Drawing.Size(87, 13);
+            this.label19.TabIndex = 11;
+            this.label19.Text = "Selamat Datang,";
+            // 
+            // label25
+            // 
+            this.label25.BackColor = System.Drawing.Color.Transparent;
+            this.label25.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label25.Location = new System.Drawing.Point(269, 150);
+            this.label25.Name = "label25";
+            this.label25.Size = new System.Drawing.Size(161, 13);
+            this.label25.TabIndex = 12;
+            this.label25.Text = "Anda Log In dengan username :";
+            // 
+            // namaTerang
+            // 
+            this.namaTerang.BackColor = System.Drawing.Color.Transparent;
+            this.namaTerang.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.namaTerang.Location = new System.Drawing.Point(98, 151);
+            this.namaTerang.Name = "namaTerang";
+            this.namaTerang.Size = new System.Drawing.Size(173, 13);
+            this.namaTerang.TabIndex = 13;
+            // 
+            // usernameTerang
+            // 
+            this.usernameTerang.BackColor = System.Drawing.Color.Transparent;
+            this.usernameTerang.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.usernameTerang.Location = new System.Drawing.Point(424, 151);
+            this.usernameTerang.Name = "usernameTerang";
+            this.usernameTerang.Size = new System.Drawing.Size(138, 13);
+            this.usernameTerang.TabIndex = 14;
+            // 
+            // label50
+            // 
+            this.label50.AutoSize = true;
+            this.label50.Location = new System.Drawing.Point(236, 61);
+            this.label50.Name = "label50";
+            this.label50.Size = new System.Drawing.Size(79, 13);
+            this.label50.TabIndex = 16;
+            this.label50.Text = "Export Laporan";
+            this.label50.Click += new System.EventHandler(this.label50_Click);
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::penginapan.Properties.Resources.tel;
+            this.pictureBox1.Location = new System.Drawing.Point(12, 29);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(907, 117);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 15;
+            this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
+            // 
+            // refreshReservasi
+            // 
+            this.refreshReservasi.BackColor = System.Drawing.Color.White;
+            this.refreshReservasi.Image = ((System.Drawing.Image)(resources.GetObject("refreshReservasi.Image")));
+            this.refreshReservasi.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.refreshReservasi.Location = new System.Drawing.Point(115, 19);
+            this.refreshReservasi.Name = "refreshReservasi";
+            this.refreshReservasi.Size = new System.Drawing.Size(100, 60);
+            this.refreshReservasi.TabIndex = 1;
+            this.refreshReservasi.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.refreshReservasi.UseVisualStyleBackColor = false;
+            this.refreshReservasi.Click += new System.EventHandler(this.RefreshReservasiClick);
+            // 
+            // cekIn
+            // 
+            this.cekIn.BackColor = System.Drawing.Color.White;
+            this.cekIn.Image = ((System.Drawing.Image)(resources.GetObject("cekIn.Image")));
+            this.cekIn.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.cekIn.Location = new System.Drawing.Point(9, 19);
+            this.cekIn.Name = "cekIn";
+            this.cekIn.Size = new System.Drawing.Size(100, 60);
+            this.cekIn.TabIndex = 0;
+            this.cekIn.UseVisualStyleBackColor = false;
+            this.cekIn.Click += new System.EventHandler(this.CekInClick);
+            // 
+            // refreshKamar
+            // 
+            this.refreshKamar.BackColor = System.Drawing.Color.White;
+            this.refreshKamar.Image = ((System.Drawing.Image)(resources.GetObject("refreshKamar.Image")));
+            this.refreshKamar.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.refreshKamar.Location = new System.Drawing.Point(115, 20);
+            this.refreshKamar.Name = "refreshKamar";
+            this.refreshKamar.Size = new System.Drawing.Size(100, 60);
+            this.refreshKamar.TabIndex = 1;
+            this.refreshKamar.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.refreshKamar.UseVisualStyleBackColor = false;
+            this.refreshKamar.Click += new System.EventHandler(this.RefreshKamarClick);
+            // 
+            // tmbKamar
+            // 
+            this.tmbKamar.BackColor = System.Drawing.Color.White;
+            this.tmbKamar.Image = ((System.Drawing.Image)(resources.GetObject("tmbKamar.Image")));
+            this.tmbKamar.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.tmbKamar.Location = new System.Drawing.Point(9, 19);
+            this.tmbKamar.Name = "tmbKamar";
+            this.tmbKamar.Size = new System.Drawing.Size(100, 60);
+            this.tmbKamar.TabIndex = 0;
+            this.tmbKamar.UseVisualStyleBackColor = false;
+            this.tmbKamar.Click += new System.EventHandler(this.TmbKamarClick);
+            // 
+            // refreshTipeKamar
+            // 
+            this.refreshTipeKamar.BackColor = System.Drawing.Color.White;
+            this.refreshTipeKamar.Image = ((System.Drawing.Image)(resources.GetObject("refreshTipeKamar.Image")));
+            this.refreshTipeKamar.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.refreshTipeKamar.Location = new System.Drawing.Point(452, 19);
+            this.refreshTipeKamar.Name = "refreshTipeKamar";
+            this.refreshTipeKamar.Size = new System.Drawing.Size(100, 60);
+            this.refreshTipeKamar.TabIndex = 1;
+            this.refreshTipeKamar.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.refreshTipeKamar.UseVisualStyleBackColor = false;
+            this.refreshTipeKamar.Click += new System.EventHandler(this.RefreshTipeKamarClick);
+            // 
+            // button10
+            // 
+            this.button10.BackColor = System.Drawing.Color.White;
+            this.button10.Image = ((System.Drawing.Image)(resources.GetObject("button10.Image")));
+            this.button10.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.button10.Location = new System.Drawing.Point(346, 19);
+            this.button10.Name = "button10";
+            this.button10.Size = new System.Drawing.Size(100, 60);
+            this.button10.TabIndex = 0;
+            this.button10.UseVisualStyleBackColor = false;
+            this.button10.Click += new System.EventHandler(this.Button10Click);
+            // 
+            // button19
+            // 
+            this.button19.BackColor = System.Drawing.Color.White;
+            this.button19.Image = ((System.Drawing.Image)(resources.GetObject("button19.Image")));
+            this.button19.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.button19.Location = new System.Drawing.Point(115, 20);
+            this.button19.Name = "button19";
+            this.button19.Size = new System.Drawing.Size(100, 60);
+            this.button19.TabIndex = 1;
+            this.button19.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.button19.UseVisualStyleBackColor = false;
+            this.button19.Click += new System.EventHandler(this.Button19Click);
+            // 
+            // button20
+            // 
+            this.button20.BackColor = System.Drawing.Color.White;
+            this.button20.Image = ((System.Drawing.Image)(resources.GetObject("button20.Image")));
+            this.button20.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.button20.Location = new System.Drawing.Point(9, 19);
+            this.button20.Name = "button20";
+            this.button20.Size = new System.Drawing.Size(100, 60);
+            this.button20.TabIndex = 0;
+            this.button20.UseVisualStyleBackColor = false;
+            this.button20.Click += new System.EventHandler(this.Button20Click);
+            // 
+            // button23
+            // 
+            this.button23.BackColor = System.Drawing.Color.White;
+            this.button23.Image = ((System.Drawing.Image)(resources.GetObject("button23.Image")));
+            this.button23.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.button23.Location = new System.Drawing.Point(115, 20);
+            this.button23.Name = "button23";
+            this.button23.Size = new System.Drawing.Size(100, 60);
+            this.button23.TabIndex = 1;
+            this.button23.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.button23.UseVisualStyleBackColor = false;
+            this.button23.Click += new System.EventHandler(this.Button23Click);
+            // 
+            // button24
+            // 
+            this.button24.BackColor = System.Drawing.Color.White;
+            this.button24.Image = ((System.Drawing.Image)(resources.GetObject("button24.Image")));
+            this.button24.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.button24.Location = new System.Drawing.Point(9, 19);
+            this.button24.Name = "button24";
+            this.button24.Size = new System.Drawing.Size(100, 60);
+            this.button24.TabIndex = 0;
+            this.button24.UseVisualStyleBackColor = false;
+            this.button24.Click += new System.EventHandler(this.Button24Click);
+            // 
+            // button21
+            // 
+            this.button21.BackColor = System.Drawing.Color.White;
+            this.button21.Image = ((System.Drawing.Image)(resources.GetObject("button21.Image")));
+            this.button21.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.button21.Location = new System.Drawing.Point(115, 20);
+            this.button21.Name = "button21";
+            this.button21.Size = new System.Drawing.Size(100, 60);
+            this.button21.TabIndex = 1;
+            this.button21.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.button21.UseVisualStyleBackColor = false;
+            this.button21.Click += new System.EventHandler(this.Button21Click);
+            // 
+            // button22
+            // 
+            this.button22.BackColor = System.Drawing.Color.White;
+            this.button22.Image = ((System.Drawing.Image)(resources.GetObject("button22.Image")));
+            this.button22.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.button22.Location = new System.Drawing.Point(9, 19);
+            this.button22.Name = "button22";
+            this.button22.Size = new System.Drawing.Size(100, 60);
+            this.button22.TabIndex = 0;
+            this.button22.UseVisualStyleBackColor = false;
+            this.button22.Click += new System.EventHandler(this.Button22Click);
+            // 
+            // button27
+            // 
+            this.button27.BackColor = System.Drawing.Color.White;
+            this.button27.Image = global::penginapan.Properties.Resources.rotate;
+            this.button27.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.button27.Location = new System.Drawing.Point(330, 25);
+            this.button27.Name = "button27";
+            this.button27.Size = new System.Drawing.Size(100, 60);
+            this.button27.TabIndex = 1;
+            this.button27.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.button27.UseVisualStyleBackColor = false;
+            this.button27.Click += new System.EventHandler(this.Button27Click);
+            // 
+            // button28
+            // 
+            this.button28.BackColor = System.Drawing.Color.White;
+            this.button28.Image = ((System.Drawing.Image)(resources.GetObject("button28.Image")));
+            this.button28.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.button28.Location = new System.Drawing.Point(224, 24);
+            this.button28.Name = "button28";
+            this.button28.Size = new System.Drawing.Size(100, 60);
+            this.button28.TabIndex = 0;
+            this.button28.UseVisualStyleBackColor = false;
+            this.button28.Click += new System.EventHandler(this.Button28Click);
+            // 
+            // button29
+            // 
+            this.button29.BackColor = System.Drawing.Color.White;
+            this.button29.Image = ((System.Drawing.Image)(resources.GetObject("button29.Image")));
+            this.button29.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.button29.Location = new System.Drawing.Point(362, 13);
+            this.button29.Name = "button29";
+            this.button29.Size = new System.Drawing.Size(100, 69);
+            this.button29.TabIndex = 1;
+            this.button29.UseVisualStyleBackColor = false;
+            this.button29.Click += new System.EventHandler(this.Button29Click);
             // 
             // menuStrip1
             // 
@@ -1767,6 +1834,25 @@ namespace penginapan
             this.tambahDataKamarToolStripMenuItem.Text = "Tambah Data Kamar";
             this.tambahDataKamarToolStripMenuItem.Click += new System.EventHandler(this.TambahDataKamarToolStripMenuItemClick);
             // 
+            // button13
+            // 
+            this.button13.Image = ((System.Drawing.Image)(resources.GetObject("button13.Image")));
+            this.button13.Location = new System.Drawing.Point(115, 20);
+            this.button13.Name = "button13";
+            this.button13.Size = new System.Drawing.Size(100, 60);
+            this.button13.TabIndex = 1;
+            this.button13.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.button13.UseVisualStyleBackColor = true;
+            // 
+            // button14
+            // 
+            this.button14.Image = ((System.Drawing.Image)(resources.GetObject("button14.Image")));
+            this.button14.Location = new System.Drawing.Point(9, 19);
+            this.button14.Name = "button14";
+            this.button14.Size = new System.Drawing.Size(100, 60);
+            this.button14.TabIndex = 0;
+            this.button14.UseVisualStyleBackColor = true;
+            // 
             // button17
             // 
             this.button17.Image = ((System.Drawing.Image)(resources.GetObject("button17.Image")));
@@ -1786,73 +1872,15 @@ namespace penginapan
             this.button18.TabIndex = 0;
             this.button18.UseVisualStyleBackColor = true;
             // 
-            // jamTanggal
+            // label51
             // 
-            this.jamTanggal.BackColor = System.Drawing.Color.Transparent;
-            this.jamTanggal.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.jamTanggal.Location = new System.Drawing.Point(838, 151);
-            this.jamTanggal.Name = "jamTanggal";
-            this.jamTanggal.Size = new System.Drawing.Size(77, 13);
-            this.jamTanggal.TabIndex = 9;
-            // 
-            // label18
-            // 
-            this.label18.BackColor = System.Drawing.Color.Transparent;
-            this.label18.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label18.Location = new System.Drawing.Point(733, 151);
-            this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(99, 13);
-            this.label18.TabIndex = 10;
-            this.label18.Text = "Anda Log In pada :";
-            // 
-            // label19
-            // 
-            this.label19.BackColor = System.Drawing.Color.Transparent;
-            this.label19.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label19.Location = new System.Drawing.Point(12, 150);
-            this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(87, 13);
-            this.label19.TabIndex = 11;
-            this.label19.Text = "Selamat Datang,";
-            // 
-            // label25
-            // 
-            this.label25.BackColor = System.Drawing.Color.Transparent;
-            this.label25.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label25.Location = new System.Drawing.Point(269, 150);
-            this.label25.Name = "label25";
-            this.label25.Size = new System.Drawing.Size(161, 13);
-            this.label25.TabIndex = 12;
-            this.label25.Text = "Anda Log In dengan username :";
-            // 
-            // namaTerang
-            // 
-            this.namaTerang.BackColor = System.Drawing.Color.Transparent;
-            this.namaTerang.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.namaTerang.Location = new System.Drawing.Point(98, 151);
-            this.namaTerang.Name = "namaTerang";
-            this.namaTerang.Size = new System.Drawing.Size(173, 13);
-            this.namaTerang.TabIndex = 13;
-            // 
-            // usernameTerang
-            // 
-            this.usernameTerang.BackColor = System.Drawing.Color.Transparent;
-            this.usernameTerang.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.usernameTerang.Location = new System.Drawing.Point(424, 151);
-            this.usernameTerang.Name = "usernameTerang";
-            this.usernameTerang.Size = new System.Drawing.Size(138, 13);
-            this.usernameTerang.TabIndex = 14;
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = global::penginapan.Properties.Resources.tel;
-            this.pictureBox1.Location = new System.Drawing.Point(12, 29);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(907, 117);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 15;
-            this.pictureBox1.TabStop = false;
-            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
+            this.label51.AutoSize = true;
+            this.label51.BackColor = System.Drawing.Color.White;
+            this.label51.Location = new System.Drawing.Point(358, 61);
+            this.label51.Name = "label51";
+            this.label51.Size = new System.Drawing.Size(44, 13);
+            this.label51.TabIndex = 17;
+            this.label51.Text = "Refresh";
             // 
             // FrmPenginapan
             // 
@@ -1924,6 +1952,7 @@ namespace penginapan
             this.groupBox8.PerformLayout();
             this.tabPage6.ResumeLayout(false);
             this.groupBox11.ResumeLayout(false);
+            this.groupBox11.PerformLayout();
             this.groupBox13.ResumeLayout(false);
             this.groupBox13.PerformLayout();
             this.groupBox12.ResumeLayout(false);
@@ -1937,9 +1966,9 @@ namespace penginapan
             this.tabPage14.ResumeLayout(false);
             this.tabPage14.PerformLayout();
             this.tabPage15.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -2106,5 +2135,7 @@ namespace penginapan
         private System.Windows.Forms.Label label47;
         private System.Windows.Forms.Label label46;
         private System.Windows.Forms.Label label45;
+        private System.Windows.Forms.Label label50;
+        private System.Windows.Forms.Label label51;
     }
 }

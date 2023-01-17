@@ -52,18 +52,22 @@ namespace penginapan
 						nm_usr = kolom["nama_lengkap"].ToString();
 						username = kolom["username"].ToString();
 					}
-					if (table.Rows.Count>0) 
-					{
-						FrmPenginapan f1 = new FrmPenginapan();
-						f1.id_user = id_usr;
-						f1.namaUser = nm_usr;
-						f1.userName = username;
-						f1.Show();
-						this.Hide();
-					}
-					else{
-						MessageBox.Show("Uppppzzzz...!!!!\nPassword dan Username dengan benar....!!!!","Terjadi Error...!!!!");
-					}
+				if (table.Rows.Count > 0)
+				{
+					FrmPenginapan f1 = new FrmPenginapan();
+					f1.id_user = id_usr;
+					f1.namaUser = nm_usr;
+					f1.userName = username;
+					f1.Show();
+					this.Hide();
+				}
+				else if (usrName.Text == "" || psWord.Text == "")
+                {
+					MessageBox.Show("Mohon Masukkan Username dan Password!!!");
+                }
+				else {
+					MessageBox.Show("Uppppzzzz...!!!!\nPassword dan Username dengan benar....!!!!", "Terjadi Error!!!!");
+				}
 					koneksiB.Close();
 					} catch (Exception err) {
 						MessageBox.Show(err.ToString());

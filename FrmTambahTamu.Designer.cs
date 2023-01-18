@@ -67,6 +67,7 @@ namespace penginapan
             this.groupBox1.Controls.Add(this.label2);
             this.groupBox1.Controls.Add(this.nmTamu);
             this.groupBox1.Controls.Add(this.label1);
+            this.groupBox1.ForeColor = System.Drawing.Color.White;
             this.groupBox1.Location = new System.Drawing.Point(12, 69);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(320, 158);
@@ -156,9 +157,11 @@ namespace penginapan
             // pictureBox1
             // 
             this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox1.Image = global::penginapan.Properties.Resources.tel;
             this.pictureBox1.Location = new System.Drawing.Point(12, -5);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(320, 68);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 1;
             this.pictureBox1.TabStop = false;
             // 
@@ -186,6 +189,7 @@ namespace penginapan
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.DodgerBlue;
+            this.BackgroundImage = global::penginapan.Properties.Resources.WhatsApp_Image_2023_01_18_at_06_20_51;
             this.ClientSize = new System.Drawing.Size(348, 296);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button4);

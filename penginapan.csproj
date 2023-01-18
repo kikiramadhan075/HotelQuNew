@@ -283,6 +283,7 @@
   <ItemGroup>
     <None Include="Resources\tel.png" />
     <None Include="Resources\rotate.png" />
+    <None Include="Resources\WhatsApp Image 2023-01-18 at 06.20.51.jpeg" />
     <Content Include="SqlServerTypes\readme.htm" />
     <Content Include="SqlServerTypes\x64\msvcr120.dll">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>

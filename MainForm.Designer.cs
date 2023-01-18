@@ -60,6 +60,7 @@ namespace penginapan
             // 
             // pictureBox1
             // 
+            this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox1.Image = global::penginapan.Properties.Resources.tel;
             this.pictureBox1.Location = new System.Drawing.Point(-1, -1);
             this.pictureBox1.Name = "pictureBox1";
@@ -87,6 +88,7 @@ namespace penginapan
             // label3
             // 
             this.label3.BackColor = System.Drawing.Color.Transparent;
+            this.label3.ForeColor = System.Drawing.Color.White;
             this.label3.Location = new System.Drawing.Point(57, 161);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(62, 23);
@@ -96,6 +98,7 @@ namespace penginapan
             // label2
             // 
             this.label2.BackColor = System.Drawing.Color.Transparent;
+            this.label2.ForeColor = System.Drawing.Color.White;
             this.label2.Location = new System.Drawing.Point(57, 135);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(62, 23);
@@ -128,6 +131,8 @@ namespace penginapan
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.DodgerBlue;
+            this.BackgroundImage = global::penginapan.Properties.Resources.WhatsApp_Image_2023_01_18_at_06_20_51;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(430, 255);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.pictureBox1);
@@ -137,7 +142,7 @@ namespace penginapan
             this.Controls.Add(this.label2);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.MaximizeBox = false;
             this.Name = "MainForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;

@@ -66,6 +66,7 @@ namespace penginapan
             this.groupBox1.Controls.Add(this.label2);
             this.groupBox1.Controls.Add(this.nama);
             this.groupBox1.Controls.Add(this.label1);
+            this.groupBox1.ForeColor = System.Drawing.Color.White;
             this.groupBox1.Location = new System.Drawing.Point(12, 67);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(412, 116);
@@ -75,22 +76,25 @@ namespace penginapan
             // 
             // button1
             // 
+            this.button1.BackColor = System.Drawing.Color.Gray;
+            this.button1.ForeColor = System.Drawing.Color.White;
             this.button1.Location = new System.Drawing.Point(215, 71);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(99, 39);
             this.button1.TabIndex = 15;
             this.button1.Text = "REFRESH DATA";
-            this.button1.UseVisualStyleBackColor = true;
+            this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.Button1Click);
             // 
             // button3
             // 
+            this.button3.BackColor = System.Drawing.Color.Gray;
             this.button3.Location = new System.Drawing.Point(320, 71);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(75, 39);
             this.button3.TabIndex = 14;
             this.button3.Text = "SIMPAN";
-            this.button3.UseVisualStyleBackColor = true;
+            this.button3.UseVisualStyleBackColor = false;
             this.button3.Click += new System.EventHandler(this.Button3Click);
             // 
             // harga
@@ -192,6 +196,7 @@ namespace penginapan
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.DodgerBlue;
+            this.BackgroundImage = global::penginapan.Properties.Resources.WhatsApp_Image_2023_01_18_at_06_20_51;
             this.ClientSize = new System.Drawing.Size(436, 476);
             this.Controls.Add(this.tabControl1);
             this.Controls.Add(this.tampil);

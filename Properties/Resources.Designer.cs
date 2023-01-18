@@ -79,5 +79,15 @@ namespace penginapan.Properties {
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap WhatsApp_Image_2023_01_18_at_06_20_51 {
+            get {
+                object obj = ResourceManager.GetObject("WhatsApp Image 2023-01-18 at 06.20.51", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
     }
 }

@@ -58,6 +58,7 @@ namespace penginapan
             // 
             this.groupBox1.BackColor = System.Drawing.Color.Transparent;
             this.groupBox1.Controls.Add(this.tampil);
+            this.groupBox1.ForeColor = System.Drawing.Color.Gray;
             this.groupBox1.Location = new System.Drawing.Point(12, 12);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(561, 238);
@@ -67,7 +68,9 @@ namespace penginapan
             // 
             // tampil
             // 
+            this.tampil.BackgroundColor = System.Drawing.Color.Gray;
             this.tampil.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.tampil.GridColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.tampil.Location = new System.Drawing.Point(6, 19);
             this.tampil.Name = "tampil";
             this.tampil.RowHeadersWidth = 51;
@@ -92,7 +95,7 @@ namespace penginapan
             this.tabPage17.Controls.Add(this.nmTamu);
             this.tabPage17.Location = new System.Drawing.Point(4, 22);
             this.tabPage17.Name = "tabPage17";
-            this.tabPage17.Padding = new System.Windows.Forms.Padding(3, 3, 3, 3);
+            this.tabPage17.Padding = new System.Windows.Forms.Padding(3);
             this.tabPage17.Size = new System.Drawing.Size(553, 33);
             this.tabPage17.TabIndex = 1;
             this.tabPage17.Text = "Cari Berdasarkan Nama Tamu";
@@ -130,7 +133,7 @@ namespace penginapan
             this.tabPage18.Controls.Add(this.almtTamu);
             this.tabPage18.Location = new System.Drawing.Point(4, 22);
             this.tabPage18.Name = "tabPage18";
-            this.tabPage18.Padding = new System.Windows.Forms.Padding(3, 3, 3, 3);
+            this.tabPage18.Padding = new System.Windows.Forms.Padding(3);
             this.tabPage18.Size = new System.Drawing.Size(553, 33);
             this.tabPage18.TabIndex = 2;
             this.tabPage18.Text = "Cari Berdasarkan Alamat Tamu";
@@ -166,6 +169,7 @@ namespace penginapan
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.DodgerBlue;
+            this.BackgroundImage = global::penginapan.Properties.Resources.WhatsApp_Image_2023_01_18_at_06_20_51;
             this.ClientSize = new System.Drawing.Size(585, 331);
             this.Controls.Add(this.tabControl5);
             this.Controls.Add(this.groupBox1);

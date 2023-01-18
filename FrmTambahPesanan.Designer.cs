@@ -121,6 +121,7 @@ namespace penginapan
             this.groupBox1.Controls.Add(this.nmTm);
             this.groupBox1.Controls.Add(this.label1);
             this.groupBox1.Controls.Add(this.idRs);
+            this.groupBox1.ForeColor = System.Drawing.Color.White;
             this.groupBox1.Location = new System.Drawing.Point(12, 56);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(709, 240);
@@ -319,12 +320,13 @@ namespace penginapan
             // 
             // button1
             // 
+            this.button1.BackColor = System.Drawing.Color.Gray;
             this.button1.Location = new System.Drawing.Point(9, 42);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(157, 27);
             this.button1.TabIndex = 30;
             this.button1.Text = "LIHAT DATA RESERVASI";
-            this.button1.UseVisualStyleBackColor = true;
+            this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.Button1Click);
             // 
             // tampil
@@ -418,9 +420,11 @@ namespace penginapan
             // pictureBox1
             // 
             this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox1.Location = new System.Drawing.Point(12, -8);
+            this.pictureBox1.Image = global::penginapan.Properties.Resources.tel;
+            this.pictureBox1.Location = new System.Drawing.Point(12, 3);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(709, 58);
+            this.pictureBox1.Size = new System.Drawing.Size(709, 47);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 16;
             this.pictureBox1.TabStop = false;
             // 
@@ -442,6 +446,7 @@ namespace penginapan
             this.groupBox2.Controls.Add(this.nmMenu);
             this.groupBox2.Controls.Add(this.label12);
             this.groupBox2.Controls.Add(this.idMn);
+            this.groupBox2.ForeColor = System.Drawing.Color.White;
             this.groupBox2.Location = new System.Drawing.Point(12, 302);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Size = new System.Drawing.Size(709, 206);
@@ -471,6 +476,7 @@ namespace penginapan
             // 
             // label16
             // 
+            this.label16.ForeColor = System.Drawing.Color.White;
             this.label16.Location = new System.Drawing.Point(10, 174);
             this.label16.Name = "label16";
             this.label16.Size = new System.Drawing.Size(145, 15);
@@ -486,6 +492,7 @@ namespace penginapan
             // 
             // label15
             // 
+            this.label15.ForeColor = System.Drawing.Color.White;
             this.label15.Location = new System.Drawing.Point(528, 19);
             this.label15.Name = "label15";
             this.label15.Size = new System.Drawing.Size(52, 15);
@@ -577,6 +584,7 @@ namespace penginapan
             // 
             // label13
             // 
+            this.label13.ForeColor = System.Drawing.Color.White;
             this.label13.Location = new System.Drawing.Point(390, 19);
             this.label13.Name = "label13";
             this.label13.Size = new System.Drawing.Size(52, 15);
@@ -593,6 +601,7 @@ namespace penginapan
             // 
             // label14
             // 
+            this.label14.ForeColor = System.Drawing.Color.White;
             this.label14.Location = new System.Drawing.Point(163, 20);
             this.label14.Name = "label14";
             this.label14.Size = new System.Drawing.Size(76, 15);
@@ -628,6 +637,7 @@ namespace penginapan
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.DodgerBlue;
+            this.BackgroundImage = global::penginapan.Properties.Resources.WhatsApp_Image_2023_01_18_at_06_20_51;
             this.ClientSize = new System.Drawing.Size(733, 514);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.pictureBox1);
